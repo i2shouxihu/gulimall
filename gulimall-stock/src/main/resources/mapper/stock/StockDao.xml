@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.atguigu.gulimall.stock.dao.StockDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.atguigu.gulimall.stock.entity.StockEntity" id="stockMap">
+        <result property="id" column="id"/>
+        <result property="stockcode" column="stockcode"/>
+        <result property="stockname" column="stockname"/>
+        <result property="industry" column="industry"/>
+        <result property="reason1" column="reason1"/>
+        <result property="reason2" column="reason2"/>
+        <result property="reason3" column="reason3"/>
+        <result property="reason4" column="reason4"/>
+        <result property="reason5" column="reason5"/>
+        <result property="reason6" column="reason6"/>
+        <result property="reason7" column="reason7"/>
+        <result property="reason8" column="reason8"/>
+        <result property="reason9" column="reason9"/>
+        <result property="reason10" column="reason10"/>
+        <result property="reason11" column="reason11"/>
+        <result property="reason12" column="reason12"/>
+        <result property="reason13" column="reason13"/>
+        <result property="reason14" column="reason14"/>
+        <result property="reason15" column="reason15"/>
+    </resultMap>
+
+
+</mapper>
